@@ -4,7 +4,8 @@
 
 This file can be run in node.js to convert a serial stream to net stream and vice versa 
 Is is used on a raspberry pi 3 with debian os and node 4.8.3 to connect a serial usb device to a net stream.
-the long existing Serial2Net app didnt work for me on a raspberry pi 3 
+the long existing Serial2Net app didnt work for me on a raspberry pi 3 . it depends on node serial 
+https://github.com/EmergingTechnologyAdvisors/node-serialport  npm install serialport
 
 ## changeLog
 
