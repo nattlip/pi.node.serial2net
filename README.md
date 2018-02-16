@@ -22,7 +22,7 @@ makes communication possible with Pi 3 with rfxtrx from RFXCOM with Athom Homey
 16-02-2018
 
 added support for ELDAt Easywave RX09 usb stick 
-makes communication possible with Pi 3 with MELDAt Easywave RX09 usb stick with Athom Homey 
+makes communication possible with Pi 3 with ELDAT Easywave RX09 usb stick with Athom Homey 
 
 #Serial2NetEW
 
