@@ -4,6 +4,7 @@
 
 This file can be run in node.js to convert a serial stream to net stream and vice versa for a RfxTrx usb device from RFXCOM
 Is is used on a raspberry pi 3 with debian os and node 4.8.3 to connect a serial usb device to a net stream.
+<<<<<<< HEAD
 the long existing Serial2Net app didnt work for me on a raspberry pi 3 
 you have to install the node package serialport 
 
@@ -12,6 +13,11 @@ install serialport on Pi 3
 
 	sudo npm install serialport --unsafe-perm --build-from-source
 
+=======
+the long existing Serial2Net app didnt work for me on a raspberry pi 3 . it depends on node serial 
+https://github.com/EmergingTechnologyAdvisors/node-serialport 
+npm install serialport
+>>>>>>> origin/master
 
 ## changeLog
 
