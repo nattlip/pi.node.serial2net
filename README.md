@@ -2,41 +2,37 @@
 
 
 
-This file can be run in node.js to convert a serial stream to net stream and vice versa for a RfxTrx usb device from RFXCOM
-Is is used on a raspberry pi 3 with debian os and node 4.8.3 to connect a serial usb device to a net stream.
-the long existing Serial2Net app didnt work for me on a raspberry pi 3 
-you have to install the node package serialport 
+This file can be run in node.js to convert a serial stream to net stream and vice versa for a RfxTrx usb device from RFXCOM 
+Is is used on a raspberry pi 3 with debian os and node 4.8.3 to connect a serial usb device to a net stream. 
+the long existing Serial2Net app didnt work for me 
 
 
-install serialport on Pi 3
+install serialport on Pi 3 
 
-	sudo npm install serialport --unsafe-perm --build-from-source
+	sudo npm install serialport --unsafe-perm --build-from-source 
 
-=======
-the long existing Serial2Net app didnt work for me on a raspberry pi 3 . it depends on node serial 
-https://github.com/EmergingTechnologyAdvisors/node-serialport 
-npm install serialport
 
 ## changeLog
 
-09-07-20127 
+09-07-20127  
 
-first admission to github
-makes communication possible with Pi 3 with rfxtrx from RFXCOM with Athom Homey
+first admission to github 
+makes communication possible with Pi 3 with rfxtrx from RFXCOM with Athom Homey 
 
 16-02-2018
 
-added support for ELDAt Easywave RX09 usb stick
-makes communication possible with Pi 3 with MELDAt Easywave RX09 usb stick with Athom Homey
+added support for ELDAt Easywave RX09 usb stick 
+makes communication possible with Pi 3 with MELDAt Easywave RX09 usb stick with Athom Homey 
 
 #Serial2NetEW
 
-This file can be run in node.js  to convert a serial stream to net stream and vice versa for an ELDAt Easywave RX09 usb stick
-Is is used on a raspberry pi 3 with debian os and node 4.8.3 to connect a serial usb device to a net stream.
-the long existing Serial2Net app didnt work for me on a raspberry pi 3 
-you have to install the node package serialport 
-And change the cpx210x usbserial driver on Pi because the distributed driver doent include the Eldat Easywave Rx09 usbstick
-instructions are found here
+This file can be run in node.js  to convert a serial stream to net stream and vice versa for an ELDAt Easywave RX09 usb stick 
+Is is used on a raspberry pi 3 with debian os and node 4.8.3 to connect a serial usb device to a net stream. 
+the long existing Serial2Net app didnt work for me on a raspberry pi 3  
+you have to install the node package serialport  
+And change the cpx210x usbserial driver on Pi because the distributed driver doent include the Eldat Easywave Rx09 usbstick 
+instructions are found here 
+
 https://raspberrypi.stackexchange.com/questions/78908/eldat-easywave-usbserial-device-not-detected/79020#79020
 
 install serialport on Pi 3
