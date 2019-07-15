@@ -1,6 +1,6 @@
 ﻿# Serial2Net
 
-
+serial2net uses netport 10001 to read and write to the pi from Homey. so make in homey a rfxcom device RfxTrx with ip of pi an port 10001
 
 This file can be run in node.js to convert a serial stream to net stream and vice versa for a RfxTrx usb device from RFXCOM 
 Is is used on a raspberry pi 3 with debian os and node 4.8.3 to connect a serial usb device to a net stream. 
@@ -159,7 +159,9 @@ install serialport on Pi 3
 
 sudo npm install serialport --unsafe-perm --build-from-source
 
+15-07-2019
 
+elaborated readme with instructions how to use pi as a transmitter for a Rfxcom RfxTrx device or any other domotica usb stick to be read from Homey
 
 
 [![Paypal donate][pp-donate-image]][pp-donate-link]
