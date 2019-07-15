@@ -1,6 +1,6 @@
 ﻿# Serial2Net
 
-serial2net uses netport 10001 to read and write to the pi from Homey. so make in homey a rfxcom device RfxTrx with ip of pi an port 10001
+serial2net uses netport 10001 to read and write to the pi from Homey. so make in homey a rfxcom device RfxTrx with ip of pi and port 10001
 
 This file can be run in node.js to convert a serial stream to net stream and vice versa for a RfxTrx usb device from RFXCOM 
 Is is used on a raspberry pi 3 with debian os and node 4.8.3 to connect a serial usb device to a net stream. 
